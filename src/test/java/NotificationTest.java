@@ -19,7 +19,7 @@ public class NotificationTest {
     }
 
     @Test
-    public void checkTypos() {
+    public void checkNotification() {
         driver.get("https://the-internet.herokuapp.com/notification_message_rendered");
         SoftAssert softAssert = new SoftAssert();
         driver.findElement(By.xpath("//*[@id=\"content\"]/div/p/a")).click();

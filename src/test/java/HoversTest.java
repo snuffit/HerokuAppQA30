@@ -20,7 +20,7 @@ public class HoversTest {
     }
 
     @Test
-    public void checkTypos() {
+    public void checkHovers() {
         driver.get("https://the-internet.herokuapp.com/hovers");
         SoftAssert softAssert = new SoftAssert();
         Actions actions = new Actions(driver);
